@@ -20,6 +20,10 @@ public class Person {
     public String getFirstName() {
         return firstName;
     }
+    
+    public String getCode(){
+    	return "TEST" + firstName;
+    }
 
     public String getLastName() {
         return lastName;
